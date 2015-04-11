@@ -1,0 +1,91 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Text"/>
+
+    <EditText
+        android:id="@+id/edt_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Second Text"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <RadioButton
+            android:id="@+id/radio_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Change Color"
+            android:textColor="@color/secondary_text"
+            android:gravity="center_vertical"/>
+
+        <RadioButton
+            android:id="@+id/radio_size"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Adjust Size"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/secondary_text"
+            android:gravity="center_vertical"/>
+
+        <RadioButton
+            android:id="@+id/radio_style"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Change Fontstyle"
+            android:textColor="@color/secondary_text"
+            android:gravity="center_vertical"/>
+        <RadioButton
+            android:id="@+id/radio_click"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Change Fontstyle"
+            android:textColor="@color/secondary_text"
+            android:gravity="center_vertical"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:textColor="@color/primary_text"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="@color/primary_text"
+        />
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text=""
+        android:visibility="gone"
+        android:textColor="@color/primary_text"
+        />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Material Colors-->
+    <color name="material_indigo_light">#3F51B5</color>
+    <color name="material_indigo_dark">#0D47A1</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="green_teal_light">#009688</color>
+    <color name="green_light">#54C69F</color>
+
+    <color name="orange">#DE6A23</color>
+    <color name="green">#48B289</color>
+    <color name="violet">#724A89</color>
+    <color name="yellow">#E8BB25</color>
+    <color name="red">#B1362F</color>
+</resources>
