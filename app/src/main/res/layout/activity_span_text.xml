@@ -1,6 +1,9 @@
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
@@ -22,7 +25,7 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="7dp"
         android:orientation="vertical"
         >
 
@@ -40,13 +43,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Adjust Size"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textColor="@color/secondary_text"
             android:gravity="center_vertical"/>
 
         <RadioButton
             android:id="@+id/radio_style"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Change Fontstyle"
@@ -54,7 +57,7 @@
             android:gravity="center_vertical"/>
         <RadioButton
             android:id="@+id/radio_click"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Clickable span"
@@ -68,7 +71,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:text=""
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:textColor="@color/primary_text"/>
 
     <TextView
@@ -89,3 +92,4 @@
         android:textColor="@color/primary_text"
         />
 </LinearLayout>
+</ScrollView>
